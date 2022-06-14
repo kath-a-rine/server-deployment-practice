@@ -1,1 +1,1 @@
-# server-deployment-practice
+# Lab 01: server-deployment-practice
