@@ -1,43 +1,41 @@
-# Lab 01: server-deployment-practice
+# Lab 01: Node Ecosystem, CI, CD
 
-## Project: Project Name Here
+## Project: Sever Deployment Practice
 
-### Author: Student/Group Name
+### Author: Katharine Swilley
 
 ### Problem Domain
 
-Concise Description of why this app exists
+Create and deploy a web server using CI and CD and get used to the general process of building and deploying servers.
 
 ### Links and Resources
 
-- [ci/cd](http://xyz.com) (GitHub Actions)
+- [ci/cd](https://github.com/kath-a-rine/server-deployment-practice/actions) (I missed this file earlier so it is missing the initial tests.)
 - [back-end server url](https://katharine-server-deploy-prod.herokuapp.com/)
 
 ### Setup
 
-#### `.env` requirements (where applicable)
+#### `.env` requirements
 
-i.e.
+- `PORT` - 3001
 
-- `PORT` - Port Number
+#### How to initialize/run your application
 
-#### How to initialize/run your application (where applicable)
+- `nodemon` on backend
 
-- e.g. `npm start`
-
-#### How to use your library (where applicable)
+#### How to use your library
 
 #### Features / Routes
 
-- Feature One: Details of feature
+- Feature One: create and deploy a web server using CI and CD and get used to the general process of building and deploying servers, and prepping work for grading
+
 - GET : `/hello` - specific route to hit
+- GET : `/`
 
 #### Tests
 
-- How do you run tests?
-- Any tests of note?
-- Describe any tests that you did not complete, skipped, etc
+created Server Tests in the server.test.js file. Test in terminal with `npm test` command.
 
-#### UML
+<!-- #### UML
 
-Link to an image of the UML for your application and response to events
+Link to an image of the UML for your application and response to events -->
